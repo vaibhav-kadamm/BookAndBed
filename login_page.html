@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Yinka Enoch Adedokun">
+    <meta name="description" content="Forgot Password">
+    <meta name="keywords" content="forgot password page">
+    <link href="assets/css/login.css" rel="stylesheet">
+    <title>Book And Bed</title>
+    <link href="assets/img/logo.jpg" rel="icon">
+    <link href="assets/img/logo.jpeg" rel="apple-touch-icon">
+</head>
+<body>
+    <h1>Book And Bed</h1>
+    <form action="">
+        <!-- Headings for the form -->
+        <div class="headingsContainer">
+            <h3>Sign in</h3>
+            <p>Sign in with your username and password</p>
+        </div>
+
+        <!-- Main container for all inputs -->
+        <div class="mainContainer">
+            <!-- Username -->
+            <label for="username">Your Username</label>
+            <input type="text" name="name" placeholder="Enter Username" required>
+
+            <!-- Password -->
+            <label for="pswrd">Your password</label>
+            <input type="password" placeholder="Enter Password" name="pswrd" required>
+
+            <!-- sub container for the checkbox and forgot password link -->
+            <div class="subcontainer">
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                <p class="forgotpsd"> <a href="forgot_password.html">Forgot Password?</a></p>
+            </div>
+
+            <!-- Submit button -->
+            <button class="GFG" 
+            onclick="window.location.href ='index.html'">
+           Login
+         </button>
+
+            <!-- Sign up link -->
+            <p class="register">New User?  <a href="signup.html">Register here!</a></p>
+        </div>
+    </form>
+</body>
+</html>
